@@ -1,0 +1,27 @@
+{
+  "name": "webpackconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaJ-dev/webpackConfig.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnaJ-dev/webpackConfig/issues"
+  },
+  "homepage": "https://github.com/AnaJ-dev/webpackConfig#readme",
+  "devDependencies": {
+    "webpack": "^5.106.1",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
