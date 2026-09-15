@@ -4,8 +4,8 @@
   "description": "",
   "main": "javascript.js",
   "scripts": {
-    "dev": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "dev": "webpack serve --config webpack.dev.cjs",
+    "build": "webpack --config webpack.prod.cjs"
   },
   "repository": {
     "type": "git",
@@ -14,12 +14,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/AnaJ-dev/webpackConfig/issues"
   },
   "homepage": "https://github.com/AnaJ-dev/webpackConfig#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "css-loader": "^7.1.4",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
+    "style-loader": "^4.0.0",
     "webpack": "^5.106.1",
     "webpack-cli": "^7.0.2",
     "webpack-dev-server": "^5.2.3"
